@@ -2,41 +2,45 @@
     margin: 0px;
     padding: 0px;
 }
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-}
+.login {
+    align-items: left
 
 .header {
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
+    flex-direction: column;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: pink;
-    width: 500px;
-    height: 500px;
+     background-color: pink;
 }
 
-.a {
+.hero {
+    display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     background-color: red;
 }
 
-.b {
+.feature {
+    display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     background-color: green;
 }
 
-.c {
+.footer {
+    display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: bottom;
+    align-items: bottom;
+    gap: 20px;
     background-color: blue;
-}
-
-.d {
-    background-color: violet;
 }
