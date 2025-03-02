@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Playfair Display", serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -12,14 +12,15 @@
     margin: 0;
     padding: 0;
 }
+
 .header {
     display: flex;
     /* flex-direction: column; */
     /* flex-wrap: wrap;  */
     /* justify-content: flex-end; */
     align-items: left;
-    gap: 20px;
-    background-color: white;
+    gap: 15px;
+    background-color: rgb(255, 255, 255);
 }
 
 .login {
@@ -29,7 +30,7 @@
     color: white;
     font-size: 10px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 5px; 
     transition: background-color 0.3s ease;
 }
 
@@ -61,7 +62,7 @@
 
 .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 150px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -103,7 +104,7 @@
 
 .feature {
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -141,6 +142,24 @@
 
 .feature-item p {
     color: #555;
+}
+
+.endgame {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.interstellar{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.topgun {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .footer {
