@@ -59,6 +59,10 @@
 }
 
 .hero {
+    background-image: url(avengersEndgameBackground.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
     text-align: center;
     padding: 215px 20px;
     display: flex;
@@ -74,11 +78,15 @@
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 10px;
+    color: silver;
 }
 
 .hero p {
     font-size: 1.25rem;
+    font-weight: bold ;
     margin-bottom: 30px;
+    
+    color: silver;
 }
 
 .start {
